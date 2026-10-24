@@ -1,0 +1,138 @@
+{
+  "imagem": "nascer do sol rio de janeiro.jpeg",
+  "fonte": "Acervo pessoal do autor (Tiago)",
+  "resolucao_original_largura_altura": [
+    3024,
+    4032
+  ],
+  "resolucao_trabalho_largura_altura": [
+    192,
+    256
+  ],
+  "numero_pixels": 49152,
+  "tau": 0.005,
+  "c_goldstein": 0.1,
+  "alfa_inicial_tentativa": 1.0,
+  "alfa_aceito": 1.0,
+  "objetivo_inicial": 0.032126982237213574,
+  "objetivo_apos_um_passo": 0.029618187484034563,
+  "reducao_absoluta": 0.0025087947531790104,
+  "reducao_percentual": 7.8089959855395445,
+  "gradiente_inicial": [
+    -0.043147267023035424,
+    -0.025256489074295254,
+    -0.010052612939074857,
+    0.007287454171226834,
+    -0.010823035313077755,
+    -0.0076868534073813955,
+    0.022555248811478332,
+    0.012885944808940779,
+    -0.001547446998826583
+  ],
+  "direcao": [
+    0.043147267023035424,
+    0.025256489074295254,
+    0.010052612939074857,
+    -0.007287454171226834,
+    0.010823035313077755,
+    0.0076868534073813955,
+    -0.022555248811478332,
+    -0.012885944808940779,
+    0.001547446998826583
+  ],
+  "norma_gradiente_inicial": 0.059221162860867066,
+  "g_transposto_d": -0.003507146130593341,
+  "x0": [
+    0.0784313725490196,
+    0.17647058823529413,
+    0.2549019607843137,
+    0.5490196078431373,
+    0.47843137254901963,
+    0.49019607843137253,
+    0.7647058823529411,
+    0.7294117647058823,
+    0.6666666666666666
+  ],
+  "x1": [
+    0.12157863957205503,
+    0.2017270773095894,
+    0.26495457372338854,
+    0.5417321536719105,
+    0.4892544078620974,
+    0.49788293183875393,
+    0.7421506335414628,
+    0.7165258198969415,
+    0.6682141136654932
+  ],
+  "cota_inferior_goldstein": 0.028970550719679567,
+  "cota_superior_goldstein": 0.03177626762415424,
+  "goldstein_inferior_satisfeita": true,
+  "goldstein_superior_satisfeita": true,
+  "tentativas_goldstein": 1,
+  "avaliacoes_objetivo_na_busca": 1,
+  "erro_cor_mais_proxima_inicial": 0.026729621031674516,
+  "erro_cor_mais_proxima_final": 0.0242280794997603,
+  "ocupacao_cores_inicial": [
+    17352,
+    18084,
+    13716
+  ],
+  "ocupacao_cores_final": [
+    17921,
+    17061,
+    14170
+  ],
+  "paleta_final_dentro_cubo": true,
+  "status": "Primeiro passo concluído; ambas as condições de Goldstein satisfeitas.",
+  "historico_goldstein": [
+    {
+      "tentativa": 1,
+      "alfa": 1.0,
+      "objetivo": 0.029618187484034563,
+      "cota_inferior": 0.028970550719679567,
+      "cota_superior": 0.03177626762415424,
+      "intervalo_inferior": 0.0,
+      "intervalo_superior": null,
+      "acao": "aceitar"
+    }
+  ],
+  "convexidade": {
+    "maior_autovalor_covariancia": 0.13688441674463603,
+    "tau_sobre_2": 0.0025,
+    "curvatura_direcao_divisao": -71.6716889304725,
+    "menor_autovalor_hessiana_coincidente": -35.835844465236256,
+    "maior_autovalor_hessiana_coincidente": 0.6666666666666853,
+    "conclusao": "Não globalmente convexa; ponto de cores coincidentes é uma sela."
+  },
+  "verificacao_derivadas": {
+    "paleta_inicial": {
+      "passo_diferencas_finitas": 1e-05,
+      "erro_maximo_gradiente": 4.1421479093917135e-11,
+      "erro_maximo_hessiana": 1.3873810433828737e-09,
+      "erro_simetria_hessiana": 2.220446049250313e-16
+    },
+    "paleta_perturbada": {
+      "passo_diferencas_finitas": 1e-05,
+      "erro_maximo_gradiente": 4.125038852165197e-11,
+      "erro_maximo_hessiana": 1.4263630276900585e-09,
+      "erro_simetria_hessiana": 5.551115123125783e-16
+    }
+  },
+  "autovalores_hessiana_inicial": [
+    0.009264254249870617,
+    0.3404022040290743,
+    0.44486476735924346,
+    0.5479417968016209,
+    0.668162135738111,
+    0.682561109106962,
+    0.7023658064420781,
+    0.7053255616658095,
+    0.727431613089484
+  ],
+  "versoes": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.11.2"
+  }
+}
